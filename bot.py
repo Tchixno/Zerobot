@@ -14,7 +14,7 @@ import os
 TOKEN = os.getenv("TOKEN")
 import os
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 intents = discord.Intents.default()
 intents.message_content = True
